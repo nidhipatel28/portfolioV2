@@ -11,9 +11,11 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Nidhi Patel </span>
             from <span className="purple"> Ahemedabad, India.</span>
             <br />
-            I am currently employed as a Fullstack developer at Inexture solution limited.
+            I am currently employed as a Fullstack Team Lead at Inexture
+            solution limited.
             <br />
-            I have completed bachelor of Engineering in Information Technology from L.D college of Engineering.
+            I have completed bachelor of Engineering in Information Technology
+            from L.D college of Engineering.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
