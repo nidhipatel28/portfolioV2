@@ -22,43 +22,69 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 color="yellow" />
+        <div title="JavaScript">
+          <DiJavascript1 color="yellow" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact color="cyan" />
+        <div title="React">
+          <DiReact color="cyan" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs color="#8BC34A" />
+        <div title="Node.js">
+          <DiNodejs color="#8BC34A" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb color="#4CAF50" />
+        <div title="MongoDB">
+          <DiMongodb color="#4CAF50" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs color="00B0FF" />
+        <div title="Next.js">
+          <SiNextdotjs color="00B0FF" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit color="#FFB6C1" />
+        <div title="Git">
+          <DiGit color="#FFB6C1" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap color="#B39DDB" />
+        <div title="Bootstrap">
+          <DiBootstrap color="#B39DDB" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss color="#38BDF8" />
+        <div title="Tailwind CSS">
+          <SiTailwindcss color="#38BDF8" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript color="#007ACC" />
+        <div title="TypeScript">
+          <SiTypescript color="#007ACC" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLaravel color="#FFB6C1" />
+        <div title="Laravel">
+          <SiLaravel color="#FFB6C1" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiMysql color="#4FC3F7" />
+        <div title="MySQL">
+          <SiMysql color="#4FC3F7" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPhp color="#E1BEE7" />
+        <div title="PHP">
+          <SiPhp color="#E1BEE7" />
+        </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={aemIcon} alt="AEM icon" style={{ maxHeight: "72px" }} />
+        <div title="Adobe Experience Manager">
+          <img src={aemIcon} alt="AEM icon" style={{ maxHeight: "72px" }} />
+        </div>
       </Col>
     </Row>
   );
